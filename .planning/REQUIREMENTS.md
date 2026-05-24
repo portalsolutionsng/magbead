@@ -49,6 +49,16 @@
 - [ ] **PERF-04**: Floating WhatsApp button has iOS safe area inset padding so it is not obscured by home indicator
 - [ ] **PERF-05**: Dark background aesthetic applied consistently — dark cards, vibrant bead colors, matching the brand's TikTok/Instagram style
 
+### App-Like UX
+
+- [ ] **APP-01**: Bottom navigation bar (Home, Shop, About, Order) replaces top hamburger menu — positioned with safe area insets, always visible on mobile
+- [ ] **APP-02**: Smooth animated page transitions via Motion v12 — no jarring full-page reloads between routes
+- [ ] **APP-03**: Product gallery supports horizontal swipe gestures on touch devices
+- [ ] **APP-04**: Skeleton loaders shown while images load — no blank screens or layout shift
+- [ ] **APP-05**: PWA manifest and service worker configured so users can "Add to Home Screen" and launch with the Mag'Beads icon like an installed app
+- [ ] **APP-06**: No visible scrollbars — clean full-bleed layouts throughout
+- [ ] **APP-07**: Product detail view opens as a bottom sheet or full-screen overlay — not a separate page reload feeling
+
 ### Paystack (Built, Inactive)
 
 - [ ] **PAY-01**: Payment page route `/pay` exists and is built but renders a "Coming Soon" / "Payment activation pending" state

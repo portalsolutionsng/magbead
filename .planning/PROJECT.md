@@ -70,6 +70,23 @@ A TikTok visitor lands on the site, sees stunning bead work, and places a WhatsA
 - **Trust signal**: CAC registration is a strong trust signal for Nigerian customers — prominently display reg. number
 - **Nigerian market note**: Star-rating widgets = distrust. Use WhatsApp chat screenshots + delivery photos as social proof instead
 
+## App-Like UX Direction
+
+The site must feel like a native app on mobile — not a website viewed on a phone. Visitors come from TikTok; the transition should feel seamless.
+
+**What "app feeling" means concretely:**
+- **Bottom navigation bar** — Home, Shop, About, Order (like Instagram/TikTok) instead of a top hamburger menu
+- **Full-screen sections** — hero and product detail pages fill the entire viewport (`100dvh`)
+- **Swipe gestures** — horizontal swipe through gallery images on product detail pages
+- **Smooth page transitions** — animated route changes via Motion v12, no jarring full-page reloads
+- **Touch-optimised** — no hover states, only touch/tap states; 44px minimum tap targets everywhere
+- **Bottom sheet modals** — product quick-view or order confirmation as slide-up sheets, not popups
+- **Skeleton loaders** — branded loading states instead of blank screens while images load
+- **PWA (Progressive Web App)** — manifest + service worker so users can "Add to Home Screen" and launch it like an installed app with the Mag'Beads icon
+- **No visible scrollbars** — clean, full-bleed layouts
+- **Snap scrolling** on gallery sections — each category snaps into place like Stories/Reels
+- **Sticky WhatsApp CTA** — always one tap away, no matter where the user is
+
 ## Constraints
 
 - **Hosting**: **Cloudflare Pages** (preferred — free, commercial use allowed, global CDN, supports serverless Workers for Paystack API routes) OR **GitHub Pages** (static only — fine until Paystack activates, no server-side support) — NOT Vercel (ToS prohibits payment processing on free tier)

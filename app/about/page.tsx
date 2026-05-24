@@ -20,7 +20,7 @@ export default function AboutPage() {
         {/* Cartoon illustration */}
         <div style={{ marginBottom: '24px' }}>
           <Image
-            src="/images/01DF8432-77C4-4DA2-B949-105C537E1DCA.png"
+            src="/images/owner-cartoon-lying.png"
             alt="LadyMagdo Oboho - Mag'Beads founder"
             width={400}
             height={267}
@@ -45,7 +45,7 @@ export default function AboutPage() {
         {/* Owner studio photo */}
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
           <Image
-            src="/images/55AD9072-1FB6-4173-8105-B4888201B0F6.png"
+            src="/images/owner-studio-crafting.png"
             alt="LadyMagdo Oboho — owner of Mag'Beads in her studio"
             width={320}
             height={320}

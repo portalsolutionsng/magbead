@@ -158,7 +158,7 @@ export default function Footer() {
           <span>{siteConfig.phoneDisplay}</span>
         </a>
 
-        {/* CAC reg line */}
+        {/* Address */}
         <p
           style={{
             fontFamily: 'var(--font-inter), system-ui, sans-serif',
@@ -168,7 +168,7 @@ export default function Footer() {
             marginBottom: '8px',
           }}
         >
-          {siteConfig.cacLine}
+          {siteConfig.address}
         </p>
 
         {/* Copyright */}

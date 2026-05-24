@@ -1,3 +1,6 @@
+// Prefix for all image paths. Remove when switching to custom domain (magbeads.com.ng)
+export const basePath = '/magbead';
+
 export const siteConfig = {
   name: "Mag'Beads",
   tagline: "Best Bead Plug in Port Harcourt",

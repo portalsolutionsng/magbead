@@ -1,4 +1,4 @@
-import { siteConfig } from '@/data/site';
+import { siteConfig, basePath } from '@/data/site';
 import WhatsAppButton from '@/components/ui/WhatsAppButton';
 import ScrollHint from '@/components/ui/ScrollHint';
 
@@ -8,7 +8,7 @@ export default function Home() {
       className="relative flex min-h-[100dvh] flex-col items-center justify-center text-center px-4 lg:grid lg:grid-cols-2 lg:text-left lg:px-12"
       style={{
         backgroundColor: '#0A0A0F',
-        backgroundImage: `linear-gradient(to bottom, rgba(10,10,15,0.3) 0%, rgba(10,10,15,0.85) 70%, #0A0A0F 100%), url('/images/waist-beads-pink-luxury.png')`,
+        backgroundImage: `linear-gradient(to bottom, rgba(10,10,15,0.3) 0%, rgba(10,10,15,0.85) 70%, #0A0A0F 100%), url('${basePath}/images/waist-beads-pink-luxury.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

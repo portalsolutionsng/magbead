@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import { siteConfig } from '@/data/site';
+import { siteConfig, basePath } from '@/data/site';
 import WhatsAppButton from '@/components/ui/WhatsAppButton';
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function AboutPage() {
         {/* Cartoon illustration */}
         <div style={{ marginBottom: '24px' }}>
           <Image
-            src="/images/owner-cartoon-lying.png"
+            src={`${basePath}/images/owner-cartoon-lying.png`}
             alt="LadyMagdo Oboho - Mag'Beads founder"
             width={400}
             height={267}
@@ -45,7 +45,7 @@ export default function AboutPage() {
         {/* Owner studio photo */}
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
           <Image
-            src="/images/owner-studio-crafting.png"
+            src={`${basePath}/images/owner-studio-crafting.png`}
             alt="LadyMagdo Oboho — owner of Mag'Beads in her studio"
             width={320}
             height={320}

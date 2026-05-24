@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import { siteConfig } from '@/data/site';
+import { siteConfig, basePath } from '@/data/site';
 
 export const metadata: Metadata = {
   title: "Shop — Mag'Beads",
@@ -13,16 +13,16 @@ const categories = [
     title: 'Waist Beads',
     description: 'Handcrafted waist beads for every occasion',
     images: [
-      { src: '/images/waist-beads-pink-luxury.png',          alt: 'Pink luxury waist beads with butterfly charms' },
-      { src: '/images/waist-beads-glow-queen.jpeg',          alt: 'Glow-in-the-dark waist beads — I Am A Queen' },
-      { src: '/images/waist-beads-crystal-delicate.jpeg',    alt: 'Crystal multi-strand delicate waist beads' },
-      { src: '/images/waist-beads-black-gold.jpeg',          alt: 'Black and gold waist beads with butterfly charms' },
-      { src: '/images/waist-beads-pink-flowers.jpeg',        alt: 'Pink waist beads with flower and butterfly charms' },
-      { src: '/images/waist-beads-yellow-green.jpeg',        alt: 'Yellow-green waist beads with charms' },
-      { src: '/images/waist-beads-blue-hearts.jpeg',         alt: 'Blue waist beads with heart charms' },
-      { src: '/images/waist-beads-multicolor.jpeg',          alt: 'Multicolor waist beads in blue, pink and red' },
-      { src: '/images/waist-beads-crystal-gold-flatlay.jpeg',alt: 'Crystal and gold waist beads collection flatlay' },
-      { src: '/images/waist-beads-pink-yellow-gift.jpeg',    alt: 'Pink and yellow waist beads with gift packaging' },
+      { src: `${basePath}/images/waist-beads-pink-luxury.png`,          alt: 'Pink luxury waist beads with butterfly charms' },
+      { src: `${basePath}/images/waist-beads-glow-queen.jpeg`,          alt: 'Glow-in-the-dark waist beads — I Am A Queen' },
+      { src: `${basePath}/images/waist-beads-crystal-delicate.jpeg`,    alt: 'Crystal multi-strand delicate waist beads' },
+      { src: `${basePath}/images/waist-beads-black-gold.jpeg`,          alt: 'Black and gold waist beads with butterfly charms' },
+      { src: `${basePath}/images/waist-beads-pink-flowers.jpeg`,        alt: 'Pink waist beads with flower and butterfly charms' },
+      { src: `${basePath}/images/waist-beads-yellow-green.jpeg`,        alt: 'Yellow-green waist beads with charms' },
+      { src: `${basePath}/images/waist-beads-blue-hearts.jpeg`,         alt: 'Blue waist beads with heart charms' },
+      { src: `${basePath}/images/waist-beads-multicolor.jpeg`,          alt: 'Multicolor waist beads in blue, pink and red' },
+      { src: `${basePath}/images/waist-beads-crystal-gold-flatlay.jpeg`,alt: 'Crystal and gold waist beads collection flatlay' },
+      { src: `${basePath}/images/waist-beads-pink-yellow-gift.jpeg`,    alt: 'Pink and yellow waist beads with gift packaging' },
     ],
   },
   {
@@ -30,11 +30,11 @@ const categories = [
     title: 'Necklaces',
     description: 'Statement necklaces crafted with care',
     images: [
-      { src: '/images/necklace-pearl-classic.jpeg',       alt: 'Classic pearl necklace on display bust' },
-      { src: '/images/necklace-pearl-classic-2.jpeg',     alt: 'Pearl necklace — second view' },
-      { src: '/images/necklace-crystal-clear-heart.jpeg', alt: 'Crystal choker with silver heart charm' },
-      { src: '/images/necklace-purple-smiley-rose.jpeg',  alt: 'Purple crystal choker with smiley face and rose charm' },
-      { src: '/images/necklace-lava-stone-bust.jpeg',     alt: 'Black lava stone necklace on display bust' },
+      { src: `${basePath}/images/necklace-pearl-classic.jpeg`,       alt: 'Classic pearl necklace on display bust' },
+      { src: `${basePath}/images/necklace-pearl-classic-2.jpeg`,     alt: 'Pearl necklace — second view' },
+      { src: `${basePath}/images/necklace-crystal-clear-heart.jpeg`, alt: 'Crystal choker with silver heart charm' },
+      { src: `${basePath}/images/necklace-purple-smiley-rose.jpeg`,  alt: 'Purple crystal choker with smiley face and rose charm' },
+      { src: `${basePath}/images/necklace-lava-stone-bust.jpeg`,     alt: 'Black lava stone necklace on display bust' },
     ],
   },
   {
@@ -42,9 +42,9 @@ const categories = [
     title: 'Bracelets',
     description: 'Beautiful bracelets for every wrist',
     images: [
-      { src: '/images/bracelet-pearl-silver-flatlay.jpeg',  alt: 'Pearl and silver bracelet collection flatlay' },
-      { src: '/images/bracelet-lava-black-stack.jpeg',      alt: 'Black lava stone bracelet stack' },
-      { src: '/images/bracelet-lava-black-stack-2.jpeg',    alt: 'Black lava stone bracelet stack — second view' },
+      { src: `${basePath}/images/bracelet-pearl-silver-flatlay.jpeg`,  alt: 'Pearl and silver bracelet collection flatlay' },
+      { src: `${basePath}/images/bracelet-lava-black-stack.jpeg`,      alt: 'Black lava stone bracelet stack' },
+      { src: `${basePath}/images/bracelet-lava-black-stack-2.jpeg`,    alt: 'Black lava stone bracelet stack — second view' },
     ],
   },
   {
@@ -52,8 +52,8 @@ const categories = [
     title: 'Anklets',
     description: 'Delicate anklets that move with you',
     images: [
-      { src: '/images/anklet-black-crystal-sparkle.jpeg', alt: 'Black crystal multi-strand sparkle anklet' },
-      { src: '/images/anklet-red-gold-crystal.jpeg',      alt: 'Red and gold crystal multi-strand anklet' },
+      { src: `${basePath}/images/anklet-black-crystal-sparkle.jpeg`, alt: 'Black crystal multi-strand sparkle anklet' },
+      { src: `${basePath}/images/anklet-red-gold-crystal.jpeg`,      alt: 'Red and gold crystal multi-strand anklet' },
     ],
   },
   {
@@ -61,7 +61,7 @@ const categories = [
     title: 'Earrings',
     description: 'Charming earrings to complete your look',
     images: [
-      { src: '/images/earrings-butterfly-pearl-card.jpeg', alt: 'Gold butterfly earrings with pearl drops' },
+      { src: `${basePath}/images/earrings-butterfly-pearl-card.jpeg`, alt: 'Gold butterfly earrings with pearl drops' },
     ],
   },
 ];

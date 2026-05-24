@@ -100,18 +100,44 @@ Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01–07 | Phase 1 | Pending |
-| GALL-01–07 | Phase 2 | Pending |
-| PERF-01–05 | Phase 2 | Pending |
-| CONT-01–06 | Phase 3 | Pending |
-| WA-01–04 | Phase 3 | Pending |
-| PAY-01–03 | Phase 4 | Pending |
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| FOUND-05 | Phase 1 | Pending |
+| FOUND-06 | Phase 1 | Pending |
+| FOUND-07 | Phase 1 | Pending |
+| GALL-01 | Phase 2 | Pending |
+| GALL-02 | Phase 2 | Pending |
+| GALL-03 | Phase 2 | Pending |
+| GALL-04 | Phase 2 | Pending |
+| GALL-05 | Phase 2 | Pending |
+| GALL-06 | Phase 2 | Pending |
+| GALL-07 | Phase 2 | Pending |
+| PERF-01 | Phase 2 | Pending |
+| PERF-02 | Phase 2 | Pending |
+| PERF-03 | Phase 2 | Pending |
+| PERF-04 | Phase 2 | Pending |
+| PERF-05 | Phase 2 | Pending |
+| CONT-01 | Phase 3 | Pending |
+| CONT-02 | Phase 3 | Pending |
+| CONT-03 | Phase 3 | Pending |
+| CONT-04 | Phase 3 | Pending |
+| CONT-05 | Phase 3 | Pending |
+| CONT-06 | Phase 3 | Pending |
+| WA-01 | Phase 3 | Pending |
+| WA-02 | Phase 3 | Pending |
+| WA-03 | Phase 3 | Pending |
+| WA-04 | Phase 3 | Pending |
+| PAY-01 | Phase 4 | Pending |
+| PAY-02 | Phase 4 | Pending |
+| PAY-03 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 30 total
-- Mapped to phases: 30
+- v1 requirements: 32 total (FOUND×7, GALL×7, PERF×5, CONT×6, WA×4, PAY×3)
+- Mapped to phases: 32
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-05-24*
-*Last updated: 2026-05-24 after initial definition*
+*Last updated: 2026-05-24 — traceability expanded to per-requirement rows after roadmap creation*

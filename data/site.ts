@@ -15,6 +15,10 @@ export const siteConfig = {
   tiktokHandle: "@magbeadsoboho",
   instagram: "https://www.instagram.com/mag_beads",
   instagramHandle: "@mag_beads",
+  ownerName: "LadyMagdo Oboho",
+  ownerInstagram: "https://www.instagram.com/magdooboho",
+  ownerInstagramHandle: "@magdooboho",
+  products: ["Necklaces", "Bracelets", "Waist Beads", "Anklets"],
   url: "https://magbeads.com.ng",
 } as const;
 

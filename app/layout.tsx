@@ -83,7 +83,7 @@ export default function RootLayout({
           easing="ease"
           speed={200}
         />
-        <main className="min-h-[100dvh]">{children}</main>
+        <main className="min-h-[100dvh] pb-[calc(56px+env(safe-area-inset-bottom))] lg:pb-0">{children}</main>
         <Footer />
         <BottomNav />
         <FloatingWhatsApp />

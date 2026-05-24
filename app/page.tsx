@@ -1,4 +1,3 @@
-import { ChevronDown } from 'lucide-react';
 import { siteConfig } from '@/data/site';
 import WhatsAppButton from '@/components/ui/WhatsAppButton';
 import ScrollHint from '@/components/ui/ScrollHint';

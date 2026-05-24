@@ -36,7 +36,11 @@ A TikTok visitor lands on the site, sees stunning bead work, and places a WhatsA
 - **Brand**: Magbead by @magbeadsoboho (TikTok) — "Best Bead Plug in Port Harcourt, Topnotch Quality, Luxury, Affordable"
 - **Location**: Port Harcourt, Nigeria; ships nationwide
 - **Primary traffic source**: TikTok (mobile-first audience)
-- **Order channel**: WhatsApp (wa.me/message/WUS4HFGE7PKB01) — primary for now
+- **Social links**:
+  - TikTok: https://www.tiktok.com/@magbeadsoboho
+  - Instagram: https://www.instagram.com/mag_beads
+  - WhatsApp: https://wa.me/message/WUS4HFGE7PKBO1
+- **Order channel**: WhatsApp (wa.me/message/WUS4HFGE7PKBO1) — primary for now
 - **Payment**: Paystack (account not yet active — will integrate when ready); WhatsApp handles purchases in the interim
 - **Content state**: Raw content available — phone photos and TikTok videos; needs organizing/selecting
 - **Products**: Custom bead jewelry and accessories for all genders; luxury and affordable ranges; made-to-order

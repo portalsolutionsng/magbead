@@ -1,8 +1,9 @@
 ---
-status: draft
+status: approved
 phase: 1
 phase_name: Foundation
 created: 2026-05-24
+reviewed_at: 2026-05-24
 design_system: manual (Tailwind v4 CSS-first @theme, no shadcn)
 ---
 
@@ -118,8 +119,9 @@ https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:
 
 | Token | Weight | Usage |
 |-------|--------|-------|
-| `--font-weight-regular` | `400` (Inter) | All body copy, captions, secondary text |
-| `--font-weight-bold` | `700` (Playfair Display for headings; Inter 600 for UI bold) | All headlines, CTA button labels, price values, active nav labels |
+| `--font-weight-regular` | `400` | All body copy, captions, secondary text |
+| `--font-weight-semibold` | `600` | Inter UI bold — button labels, active nav labels, price values |
+| `--font-weight-bold` | `700` | Playfair Display headlines only |
 
 **Note on Inter 600:** When Inter is used at bold weight (button labels, nav active states, prices), use weight 600 — not 700. Playfair Display uses 700 for all display sizes.
 
@@ -836,7 +838,8 @@ The full token set declared above maps to this Tailwind v4 `@theme` block:
   --font-size-caption: 13px;
 
   --font-weight-regular: 400;
-  --font-weight-bold: 700;
+  --font-weight-semibold: 600; /* Inter UI bold — buttons, nav active, prices */
+  --font-weight-bold: 700;     /* Playfair Display headlines only */
 
   --line-height-hero: 1.1;
   --line-height-heading: 1.2;

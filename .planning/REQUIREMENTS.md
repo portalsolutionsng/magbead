@@ -58,6 +58,7 @@
 - [ ] **APP-05**: PWA manifest and service worker configured so users can "Add to Home Screen" and launch with the Mag'Beads icon like an installed app
 - [ ] **APP-06**: No visible scrollbars — clean full-bleed layouts throughout
 - [ ] **APP-07**: Product detail view opens as a bottom sheet or full-screen overlay — not a separate page reload feeling
+- [ ] **APP-08**: Lucide React icons used consistently throughout — bottom nav icons, WhatsApp icon on CTAs, delivery/trust badges, product spec icons (ruler, layers, tag), social media icons in footer
 
 ### Paystack (Built, Inactive)
 

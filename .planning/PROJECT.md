@@ -86,6 +86,7 @@ The site must feel like a native app on mobile — not a website viewed on a pho
 - **No visible scrollbars** — clean, full-bleed layouts
 - **Snap scrolling** on gallery sections — each category snaps into place like Stories/Reels
 - **Sticky WhatsApp CTA** — always one tap away, no matter where the user is
+- **Quality icons throughout** — consistent icon set used for nav, CTAs, product specs, trust signals, and social links
 
 ## Constraints
 
@@ -101,6 +102,7 @@ The site must feel like a native app on mobile — not a website viewed on a pho
 | Next.js 16 on Cloudflare Pages | Free, commercial use allowed, global CDN, Cloudflare Workers handles Paystack server-side API routes; GitHub Pages fallback is static-only | — Pending |
 | Tailwind v4 | CSS-first @theme config ideal for vibrant brand palette; 100x faster builds; released Jan 2025 | — Pending |
 | Motion v12 (not framer-motion) | Framer Motion deprecated; Motion v12 uses hardware-accelerated WAAPI, matters on mid-range Android | — Pending |
+| Lucide React for icons | Tree-shakeable, consistent stroke style, 1,500+ icons, zero config with Next.js — used for nav, CTAs, specs, trust signals, social | — Pending |
 | WhatsApp CTA: link for buttons, number for display | Use wa.me/message/WUS4HFGE7PKBO1 for clickable CTAs; display +234 703 239 1971 as visible phone number for trust | — Pending |
 | WhatsApp-first ordering | Paystack not yet active; WhatsApp is the dominant trusted commerce channel in Nigeria | — Pending |
 | Mobile-first design | Majority of visitors arrive from TikTok on mobile devices | — Pending |

@@ -1,65 +1,67 @@
-import Image from "next/image";
+import { ChevronDown } from 'lucide-react';
+import { siteConfig } from '@/data/site';
+import WhatsAppButton from '@/components/ui/WhatsAppButton';
+import ScrollHint from '@/components/ui/ScrollHint';
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <section
+      className="relative flex min-h-[100dvh] flex-col items-center justify-center text-center px-4 lg:grid lg:grid-cols-2 lg:text-left lg:px-12"
+      style={{
+        backgroundColor: '#0A0A0F',
+        /* Real hero photography is a Phase 2 content task — placeholder OG image used for now */
+        backgroundImage:
+          'linear-gradient(to bottom, rgba(10,10,15,0.3) 0%, rgba(10,10,15,0.85) 70%, #0A0A0F 100%), url(/og-image.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      {/* Content column */}
+      <div className="flex flex-col items-center gap-4 lg:items-start lg:justify-center lg:h-full">
+        <h1
+          style={{
+            fontFamily: 'var(--font-playfair), Georgia, serif',
+            fontWeight: 700,
+            fontSize: '40px',
+            color: '#F5F0E8',
+            lineHeight: 1.1,
+            letterSpacing: 'normal',
+          }}
+        >
+          Mag&apos;Beads
+        </h1>
+
+        <p
+          style={{
+            fontFamily: 'var(--font-inter), system-ui, sans-serif',
+            fontWeight: 400,
+            fontSize: '16px',
+            color: '#A09890',
+            lineHeight: 1.6,
+          }}
+        >
+          {siteConfig.tagline}
+        </p>
+
+        <p
+          style={{
+            fontFamily: 'var(--font-inter), system-ui, sans-serif',
+            fontWeight: 400,
+            fontSize: '13px',
+            color: '#5A5450',
+            lineHeight: 1.3,
+          }}
+        >
+          {siteConfig.subTagline}
+        </p>
+
+        <div className="w-full mt-2 lg:w-auto">
+          <WhatsAppButton fullWidth />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </div>
+
+      {/* Scroll hint */}
+      <ScrollHint />
+    </section>
   );
 }

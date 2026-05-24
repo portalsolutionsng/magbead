@@ -54,24 +54,31 @@ A TikTok visitor lands on the site, sees stunning bead work, and places a WhatsA
 - **Order channel**: WhatsApp (wa.me/message/WUS4HFGE7PKBO1) — primary for now
 - **Payment**: Paystack (account not yet active — will integrate when ready); WhatsApp handles purchases in the interim
 - **Content state**: Raw content available — phone photos and TikTok videos; needs organizing/selecting
+- **Photography style**: Dark/black background (mannequin bust), vibrant bead colors pop — this IS the brand aesthetic, replicate on site
+- **Product listing format**: Color name + strands + length (inches) + price per strand (e.g. "Sky Blue · 3 strands · 40″ · ₦3,500/strand")
+- **Price point observed**: ₦3,500 per strand (waistbeads/necklaces) — affordable range confirmed
 - **Trust signal**: CAC registration is a strong trust signal for Nigerian customers — prominently display reg. number
+- **Nigerian market note**: Star-rating widgets = distrust. Use WhatsApp chat screenshots + delivery photos as social proof instead
 
 ## Constraints
 
-- **Hosting**: Free hosting required — Vercel (Next.js) or GitHub Pages (static) preferred
-- **Tech**: Must be easy to go live without complex DevOps; Paystack integration must be addable without full rebuild
-- **Content**: No professional photoshoot yet — site must look great with real product photos from phones/TikTok
-- **Payment**: Paystack page must be buildable now but can remain inactive until account verification completes
+- **Hosting**: Netlify (free, commercial use allowed) — **NOT Vercel** (ToS prohibits payment processing on free tier)
+- **Tech**: Must be easy to go live without complex DevOps; Paystack integration must be addable without full rebuild; do NOT use `next/image` static export mode — disables image optimization and API routes
+- **Content**: No professional photoshoot yet — site must look great with real product photos from phones/TikTok; pre-process images with sharp to WebP before committing
+- **Payment**: Paystack page must be buildable now but can remain inactive (env-var toggle) until account verification completes
 
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Next.js on Vercel | Free hosting, easy go-live, supports Paystack API route later without rebuilding | — Pending |
-| WhatsApp-first ordering | Paystack not yet active; WhatsApp is existing channel customers already use | — Pending |
+| Next.js 16 on Netlify | Netlify allows commercial use (free tier); supports Paystack API routes; Next.js needed for server-side Paystack init | — Pending |
+| Tailwind v4 | CSS-first @theme config ideal for vibrant brand palette; 100x faster builds; released Jan 2025 | — Pending |
+| Motion v12 (not framer-motion) | Framer Motion deprecated; Motion v12 uses hardware-accelerated WAAPI, matters on mid-range Android | — Pending |
+| WhatsApp deep link format | Keep existing wa.me/message/WUS4HFGE7PKBO1 — safer than number format, bypasses +234 prefix issues | — Pending |
+| WhatsApp-first ordering | Paystack not yet active; WhatsApp is the dominant trusted commerce channel in Nigeria | — Pending |
 | Mobile-first design | Majority of visitors arrive from TikTok on mobile devices | — Pending |
-| Bold & vibrant aesthetic | Matches the energy of bead art and African craft; differentiates from generic e-commerce templates | — Pending |
-| Display CAC registration | Strong trust signal for Nigerian customers; distinguishes from unregistered vendors | — Pending |
+| Dark background gallery | Matches existing Instagram/TikTok content style; bead colors pop on dark bg | — Pending |
+| Display CAC registration | Strong trust signal; distinguishes from unregistered vendors | — Pending |
 
 ## Evolution
 

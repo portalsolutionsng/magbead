@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { siteConfig } from '@/data/site';
 import WhatsAppButton from '@/components/ui/WhatsAppButton';
 
@@ -16,6 +17,17 @@ export default function AboutPage() {
     >
       <div style={{ maxWidth: '600px', width: '100%' }}>
 
+        {/* Cartoon illustration */}
+        <div style={{ marginBottom: '24px' }}>
+          <Image
+            src="/images/01DF8432-77C4-4DA2-B949-105C537E1DCA.png"
+            alt="LadyMagdo Oboho - Mag'Beads founder"
+            width={400}
+            height={267}
+            style={{ borderRadius: '12px', maxWidth: '100%' }}
+          />
+        </div>
+
         {/* Heading */}
         <h1
           style={{
@@ -29,6 +41,17 @@ export default function AboutPage() {
         >
           About Mag&apos;Beads
         </h1>
+
+        {/* Owner studio photo */}
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
+          <Image
+            src="/images/55AD9072-1FB6-4173-8105-B4888201B0F6.png"
+            alt="LadyMagdo Oboho — owner of Mag'Beads in her studio"
+            width={320}
+            height={320}
+            style={{ objectFit: 'cover', borderRadius: '16px', maxWidth: '320px', width: '100%' }}
+          />
+        </div>
 
         {/* Owner intro */}
         <p

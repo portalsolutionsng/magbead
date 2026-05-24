@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "Best Bead Plug in Port Harcourt",
   subTagline: "Topnotch Quality · Luxury · Affordable",
   footerTagline:
-    "Handcrafted bead jewelry from Port Harcourt, Nigeria. Nationwide delivery. CAC-registered business since 2022.",
+    "Handcrafted bead jewelry from Port Harcourt, Nigeria. Necklaces, bracelets, waist beads, anklets, beaded bags & phone straps. Nationwide delivery. CAC-registered.",
   whatsappLink: "https://wa.me/message/WUS4HFGE7PKBO1",
   whatsappAria: "Chat with Mag'Beads on WhatsApp",
   phone: "+2347032391971",
@@ -18,7 +18,7 @@ export const siteConfig = {
   ownerName: "LadyMagdo Oboho",
   ownerInstagram: "https://www.instagram.com/magdooboho",
   ownerInstagramHandle: "@magdooboho",
-  products: ["Necklaces", "Bracelets", "Waist Beads", "Anklets"],
+  products: ["Necklaces", "Bracelets", "Waist Beads", "Anklets", "Beaded Bags", "Phone Straps"],
   url: "https://magbeads.com.ng",
 } as const;
 

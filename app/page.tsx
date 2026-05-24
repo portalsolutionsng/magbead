@@ -8,9 +8,7 @@ export default function Home() {
       className="relative flex min-h-[100dvh] flex-col items-center justify-center text-center px-4 lg:grid lg:grid-cols-2 lg:text-left lg:px-12"
       style={{
         backgroundColor: '#0A0A0F',
-        /* Real hero photography is a Phase 2 content task — placeholder OG image used for now */
-        backgroundImage:
-          'linear-gradient(to bottom, rgba(10,10,15,0.3) 0%, rgba(10,10,15,0.85) 70%, #0A0A0F 100%), url(/og-image.png)',
+        backgroundImage: `linear-gradient(to bottom, rgba(10,10,15,0.3) 0%, rgba(10,10,15,0.85) 70%, #0A0A0F 100%), url('/images/A629F0B2-5706-4151-B349-4AE0C5B62B2E.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

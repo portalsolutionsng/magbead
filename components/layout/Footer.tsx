@@ -1,4 +1,4 @@
-import { Truck, Gift, BadgeCheck, Instagram, Music2, Phone } from 'lucide-react';
+import { Truck, Gift, BadgeCheck, Music2, Phone } from 'lucide-react';
 import { siteConfig } from '@/data/site';
 
 export default function Footer() {
@@ -128,7 +128,12 @@ export default function Footer() {
             }}
             aria-label={`Instagram: ${siteConfig.instagramHandle}`}
           >
-            <Instagram size={20} strokeWidth={1.5} aria-hidden="true" />
+            {/* Custom Instagram icon — lucide-react v1.16 has no Instagram export */}
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+            <circle cx="12" cy="12" r="5" />
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
             <span>{siteConfig.instagramHandle}</span>
           </a>
         </div>

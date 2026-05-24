@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   images: { unoptimized: true },
-  // basePath: '/magbead',      // Enable ONLY if deploying to username.github.io/magbead (no custom domain)
-  // assetPrefix: '/magbead/',  // Enable ONLY if no custom domain
+  basePath: '/magbead',      // Remove when using custom domain (magbeads.com.ng)
+  assetPrefix: '/magbead/',  // Remove when using custom domain (magbeads.com.ng)
 };
 
 const withPWA = withSerwist({

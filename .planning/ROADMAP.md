@@ -23,7 +23,8 @@ Four phases that take the Mag'Beads site from empty scaffold to a fully deployed
   2. The floating WhatsApp button is visible on every page and opens the Mag'Beads chat when tapped
   3. Sharing the site URL on TikTok or Instagram shows a branded OG preview card (title, description, image)
   4. The homepage hero displays the Mag'Beads brand name, tagline, and a primary WhatsApp CTA button above the fold on a 390px screen
-**Plans**: TBD
+**Plans**: 1 plan (Walking Skeleton)
+- [ ] 01-01-PLAN.md — Scaffold + global chrome + hero + PWA + OG meta, deployed live to GitHub Pages
 **UI hint**: yes
 
 ### Phase 2: Gallery
@@ -67,7 +68,7 @@ Four phases that take the Mag'Beads site from empty scaffold to a fully deployed
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/? | Not started | - |
+| 1. Foundation | 0/1 | Planned | - |
 | 2. Gallery | 0/? | Not started | - |
 | 3. Content & WhatsApp | 0/? | Not started | - |
 | 4. Paystack Ready | 0/? | Not started | - |

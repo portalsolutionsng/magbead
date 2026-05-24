@@ -54,10 +54,19 @@ A TikTok visitor lands on the site, sees stunning bead work, and places a WhatsA
   - WhatsApp Business number: +234 703 239 1971
 - **Order channel**: WhatsApp — link: wa.me/message/WUS4HFGE7PKBO1 | number: +234 703 239 1971 (use link for CTA buttons, number for display)
 - **Payment**: Paystack (account not yet active — will integrate when ready); WhatsApp handles purchases in the interim
-- **Content state**: Raw content available — phone photos and TikTok videos; needs organizing/selecting
-- **Photography style**: Dark/black background (mannequin bust), vibrant bead colors pop — this IS the brand aesthetic, replicate on site
+- **Content state**: Raw content available on Instagram (@mag_beads) and TikTok — 12+ posts visible, wide color range, to be uploaded once site is ready
+- **Photography style**: Mix of dark background product shots, on-body worn shots, flat lay on coloured backgrounds (orange, white). Dark bg makes colors pop best — primary gallery aesthetic.
 - **Product listing format**: Color name + strands + length (inches) + price per strand (e.g. "Sky Blue · 3 strands · 40″ · ₦3,500/strand")
-- **Price point observed**: ₦3,500 per strand (waistbeads/necklaces) — affordable range confirmed
+- **Pricing range observed**: ₦1,500–₦3,500 per strand / piece depending on product type
+- **Product range confirmed from Instagram**:
+  - Waistbeads: navy, red, glow-in-dark, black, pink crystal, gold/tan, sky blue — primary product
+  - Bracelets: evil eye (blue), purple chunky, men's black stack — secondary product
+  - Necklaces: multi-strand pearl — tertiary product
+- **Freebie strategy**: Multiple posts offer "+Freebie 🎁" with orders — strong conversion tactic; feature on site ("Surprise freebie with every order")
+- **Branded packaging**: MAG'BEADS thank-you card (black, branded) visible in posts — signals premium quality; show on About/brand section
+- **Men's products confirmed**: Black bracelet stacks explicitly for men — ensure men's section is visible on homepage
+- **Custom orders confirmed**: "JOJO" custom order visible — custom order flow is real and active
+- **Port Harcourt identity**: Geo-tag used deliberately on posts — lean into PHC origin as a brand identity signal
 - **Trust signal**: CAC registration is a strong trust signal for Nigerian customers — prominently display reg. number
 - **Nigerian market note**: Star-rating widgets = distrust. Use WhatsApp chat screenshots + delivery photos as social proof instead
 

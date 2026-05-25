@@ -130,13 +130,24 @@ export default function OrderModal({ product, onClose }: Props) {
           display: 'flex', gap: '14px', alignItems: 'center',
           marginBottom: '24px', marginTop: '8px',
         }}>
-          <Image
-            src={imgSrc(product.image)}
-            alt={product.name}
-            width={72}
-            height={72}
-            style={{ objectFit: 'cover', borderRadius: '12px', flexShrink: 0 }}
-          />
+          {product.image ? (
+            <Image
+              src={imgSrc(product.image)}
+              alt={product.name}
+              width={72}
+              height={72}
+              style={{ objectFit: 'cover', borderRadius: '12px', flexShrink: 0 }}
+            />
+          ) : (
+            <div style={{
+              width: 72, height: 72, borderRadius: '12px', flexShrink: 0,
+              backgroundColor: '#1A1A26', border: '1px dashed #2A2A3A',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: '24px',
+            }}>
+              📷
+            </div>
+          )}
           <div>
             <p style={{ fontFamily: 'var(--font-inter), system-ui, sans-serif', fontSize: '12px', color: '#A09890', margin: '0 0 2px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
               {product.category}

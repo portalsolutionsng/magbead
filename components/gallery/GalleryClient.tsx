@@ -54,7 +54,7 @@ function PlaceholderCard({ product, onClick }: { product: Product; onClick: () =
           fontFamily: 'var(--font-inter), system-ui, sans-serif',
           fontSize: '12px', color: '#D4A843', fontWeight: 700,
         }}>
-          {formatPrice(product.price)}
+          {product.sizePricing ? 'From ₦2,000' : formatPrice(product.price)}
         </div>
       </div>
       {/* Name below */}
@@ -116,7 +116,7 @@ function PhotoCard({ product, onClick }: { product: Product; onClick: () => void
           fontFamily: 'var(--font-inter), system-ui, sans-serif',
           fontSize: '12px', color: '#D4A843', fontWeight: 700,
         }}>
-          {formatPrice(product.price)}
+          {product.sizePricing ? 'From ₦2,000' : formatPrice(product.price)}
         </div>
       </div>
       <p style={{
